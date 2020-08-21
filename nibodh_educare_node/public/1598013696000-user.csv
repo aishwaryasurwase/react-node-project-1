@@ -1,0 +1,5 @@
+id,name,salary,company,status
+1,aishwarya,4Lac,infosys,TRUE
+2,sakshi,2Lac,cognizant,FALSE
+3,ritika,2Lac,Khoros,TRUE
+4,sanu,3Lac,paysafe,FALSE
