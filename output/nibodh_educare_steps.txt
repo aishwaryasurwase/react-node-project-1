@@ -1,0 +1,31 @@
+Install the node_modules for both folder nibodh_educare and nibodh_educare_node
+- cd folder_name
+- npm install
+
+To start for both folder
+- npm start
+
+React.js will be run on 3000 port and 
+Node.js will be run on 3100 port.
+
+Change the database username and password in file 
+
+nibodh_educare_node -> controllers -> uploadCSV.js 
+
+in uploadFile function according to local database 
+connection of postgres
+
+const pool = new Pool({
+             	host: "localhost",
+                user: "postgres",
+                database: "postgres",
+                password: "admin",
+                port: 5432
+             });
+
+
+****************Constraints***********
+1) As of now columns counts is fixed its 5 
+neither more than than nor less than that.
+
+ 
